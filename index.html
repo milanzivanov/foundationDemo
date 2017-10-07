@@ -1,0 +1,492 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation for Sites</title>
+    <link rel="stylesheet" href="/css/foundation-icons/foundation-icons.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+
+  <!-- top bar -->
+  <div class="top-bar">
+    <div class="top-bar-left">
+      <ul class="dropdown menu" data-dropdown-menu>
+        <li class="menu-text">Site Title</li>
+        <li>
+          <a href="#">One</a>
+          <ul class="menu vertical">
+            <li><a href="#">One</a></li>
+            <li><a href="#">Two</a></li>
+            <li><a href="#">Three</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Two</a></li>
+        <li><a href="#">Three</a></li>
+      </ul>
+    </div>
+    <div class="top-bar-right">
+      <ul class="menu">
+        <li><input type="search" placeholder="Search"></li>
+        <li><button type="button" class="button">Search</button></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="row">
+      <div class="columns">
+        <img data-interchange="[//foundation.zurb.com/sites/docs/assets/img/interchange/small.jpg, small], [//foundation.zurb.com/sites/docs/assets/img/interchange/medium.jpg, medium], [//foundation.zurb.com/sites/docs/assets/img/interchange/large.jpg, large]">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="small-6 columns">6 columns</div>
+      <div class="small-6 columns">6 columns</div>
+    </div>
+    <div class="row">
+      <div class="medium-6 large-4 columns">12/6/4 columns</div>
+      <div class="medium-6 large-8 columns">12/6/8 columns</div>
+    </div>
+
+    <!-- typography -->
+    <div class="row">
+      <div class="large-12 cell">
+        <h1>Welcome to foundation</h1>
+      </div>
+      <!-- heading -->
+      <h1>Heading <small>Secendary text</small></h1>
+      <h2 class="subheader">Heading <small>Secendary text</small></h2>
+      <a href="#">link text</a>
+      <!-- paragraphs -->
+      <p><strong>lorem ipsum</strong>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <em>Incidunt, adipisci!</em></p>
+
+      <p class="lead"><strong>lorem ipsum</strong>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <em>Incidunt, adipisci!</em></p>
+
+      <p>Server Up-time</p>
+      <div class="start">
+        test
+      </div>
+  
+      <hr>
+
+      <!-- alighment classes -->
+      <p class="text-left">Left text</p>
+      <p class="text-center">Center text</p>
+      <p class="text-right">Right text</p>    
+      <p class="text-justify">Justify text</p>
+  
+      <!-- floats -->
+      <div class="callout clearfix warning">
+        <a class="button float-left">Left</a>
+        <a class="button float-right">Right</a>
+      </div>
+
+      <!-- code -->
+      <code>
+        &lt;div="test"&gt;
+      </code>
+      <p>Press <kbd>Cmd+r</kbd></p>  
+
+       <!-- blockquote -->
+      <blockquote>
+        This is blockquote from foundation
+      </blockquote>
+
+      <!-- list -->
+      <ul class="no-bullet">
+        <li>test</li>
+        <li>test</li>
+        <li>test</li>
+        <li>test</li>
+        <li>text
+          <ul>
+            <li>nested</li>
+            <li>nested</li>
+            <li>nested</li>
+            <li>nested</li>
+            <li>nested</li>
+          </ul>
+        </li>
+      </ul>
+
+      <!-- visibility -->
+      <p class="hide">Hidden</p>
+      <p class="invisible">Invisible</p>
+      <p>You are on a small screen or larger.</p>
+      <p class="show-for-medium">You are on a medium screen or larger.</p>
+      <p class="show-for-large">You are on a large screen or larger.</p>
+      <p class="show-for-small-only">
+        You are <em>definitely</em> on a small screen.
+      </p>
+      <p class="show-for-medium-only">
+        You are <em>definitely</em> on a medium screen.
+      </p>
+      <p class="show-for-large-only">
+        You are <em>definitely</em> on a large screen.
+      </p>
+      <p class="hide-for-medium">
+        You are <em>not</em> on a medium screen or larger.
+      </p>
+      <p class="hide-for-large">You are <em>not</em> 
+        on a large screen or larger.
+      </p>
+      <p class="hide-for-small-only">
+        You are <em>definitely not</em> on a small screen.
+      </p>
+      <p class="hide-for-medium-only">
+        You are <em>definitely not</em> on a medium screen.
+      </p>
+      <p class="hide-for-large-only">
+        You are <em>definitely not</em> on a large screen.
+      </p>
+    </div>
+
+    <div class="row">
+      <!-- buttons -->
+      <button class="button">Button</button>
+      <button class="button">Link</button>
+      <input type="button" value="Input" class="button">
+
+      <br>
+      <!-- sizes -->
+      <button class="button tiny">Button</button>
+      <button class="button small">Button</button>
+      <button class="button large">Button</button>
+      <button class="button expanded">Button</button>
+      <button class="button expanded large">Button</button>
+
+      <!-- Buttons (actions) -->
+      <button type="button" class="success button">Save</button>
+      <button type="button" class="alert button">Delete</button>
+
+      <a class="button primary" href="#">Primary</a>
+      <a class="button secondary" href="#">Secondary</a>
+      <a class="button success" href="#">Success</a>
+      <a class="button alert" href="#">Alert</a>
+      <a class="button warning" href="#">Warning</a>
+      <!-- hollow -->
+      <button class="hollow button" href="#">Primary</button>
+      <button class="hollow button secondary" href="#">Secondary</button>
+      <button class="hollow button success" href="#">Success</button>
+      <button class="hollow button alert" href="#">Alert</button>
+      <button class="hollow button warning" href="#">Warning</button>
+      <button class="hollow button" href="#" disabled>Disabled</button>
+    </div>
+
+    <div class="row">
+      <!-- forms -->
+      <form>
+        <div>
+          <label>Name</label>
+          <input type="text" placeholder="Name">
+        </div>
+        <div>
+          <label>Email</label>
+          <input type="email" placeholder="Email">
+        </div>
+        <div>
+          <label>Number</label>
+          <input type="number">
+        </div>
+        <div>
+          <label>Message</label>
+          <textarea placeholder="Message"></textarea>
+        </div>
+        <div>
+          <label>Gender</label>
+          <select>
+            <option value="">male</option>
+            <option value="">female</option>
+            <option value="">other</option>
+          </select>
+        </div>
+        <div>
+          <label>Gender</label>
+          <select multiple>
+            <option value="">male</option>
+            <option value="">female</option>
+            <option value="">other</option>
+          </select>
+        </div>
+        <fieldset class="fieldset">
+          <legend>A Fieldset</legend>
+          <input type="checkbox"><label>Checkbox</label>
+          <input type="checkbox"><label>Checkbox</label>
+          <input type="checkbox"><label>Checkbox</label>
+        </fieldset>
+        <label for="fileUpload" class="button">Upload file</label>
+        <input type="file" id="fileUpload" class="show-for-sr">
+
+        <label for="">Password</label>
+        <input type="password">
+        <p class="help-text">Your password must have 8 chrs or more.</p>
+
+        <div class="input-group">
+          <span class="input-group-label">@</span>
+          <input type="email" class="input-group-field">
+          <div class="input-group-button">
+            <input type="submit" class="button" value="Submit">
+          </div>  
+        </div>
+
+        <div class="switch">
+          <input class="switch-input" id="exampleSwitch" type="checkbox" name="exampleSwitch">
+          <label class="switch-paddle" for="exampleSwitch">
+            <span class="show-for-sr">Download Kittens</span>
+          </label>
+        </div>
+
+        <div class="slider" data-slider data-initial-start="0" data-end="20">
+          <span class="slider-handle"  data-slider-handle role="slider" tabindex="1"></span>
+          <span class="slider-fill" data-slider-fill></span>
+          <input type="hidden">
+        </div>
+      </form>
+    </div>
+
+    <div class="row">
+      <!-- tables -->
+      <table class="hover triped">
+        <thead>
+          <tr>
+            <th>Table Header</th>
+            <th>Table Header</th>
+            <th>Table Header</th>
+            <th>Table Header</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Content Goes Here</td>
+            <td>This is longer content Donec id elit non mi porta gravida at eget metus.</td>
+            <td>Content Goes Here</td>
+            <td>Content Goes Here</td>
+          </tr>
+          <tr>
+            <td>Content Goes Here</td>
+            <td>This is longer Content Goes Here Donec id elit non mi porta gravida at eget metus.</td>
+            <td>Content Goes Here</td>
+            <td>Content Goes Here</td>
+          </tr>
+          <tr>
+            <td>Content Goes Here</td>
+            <td>This is longer Content Goes Here Donec id elit non mi porta gravida at eget metus.</td>
+            <td>Content Goes Here</td>
+            <td>Content Goes Here</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="row">
+      <!-- menu -->
+      <ul class="menu">
+          <li class="menu-text">Site title</li>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+      </ul>
+
+      <ul class="menu">
+        <li><a href="#"><i class="fi-plus"></i> <span>One</span></a></li>
+        <li><a href="#"><i class="fi-cloud"></i> <span>Two</span></a></li>
+        <li><a href="#"><i class="fi-lock"></i> <span>Three</span></a></li>
+        <li><a href="#"><i class="fi-heart"></i> <span>Four</span></a></li>
+      </ul>     
+    </div>
+
+    <div class="row">
+      <!-- coallouts -->
+      <div class="callout">
+        <p>This is callaut</p>
+      </div>
+      <hr>
+      <!-- progress bar -->
+      <div class="secondary progress" role="progressbar" tabindex="0" aria-valuenow="25" aria-valuemin="0" aria-valuetext="25 percent" aria-valuemax="100">
+        <div class="progress-meter" style="width: 25%"></div>
+      </div>
+      
+      <div class="success progress">
+        <div class="progress-meter" style="width: 50%"></div>
+      </div>
+      
+      <div class="warning progress">
+        <div class="progress-meter" style="width: 50%"></div>
+      </div>
+      
+      <div class="alert progress">
+        <div class="progress-meter" style="width: 75%"></div>
+      </div>
+      <!-- labels -->
+      <span class="label primary">Primary Label</span>
+      <span class="label secondary">Secondary Label</span>
+      <span class="label success">Success Label</span>
+      <span class="label alert">Alert Label</span>
+      <span class="label warning">Warning Label</span>
+      <!-- badges -->
+      <span class="badge primary">1</span>
+      <span class="badge secondary">2</span>
+      <span class="badge success">3</span>
+      <span class="badge alert">A</span>
+      <span class="badge warning">B</span>
+      <!-- breadcrumbs -->
+      <nav aria-label="You are here:" role="navigation">
+        <ul class="breadcrumbs">
+          <li><a href="#0">Home</a></li>
+          <li><a href="#0">Features</a></li>
+          <li class="disabled">Gene Splicing</li>
+          <li>
+            <span class="show-for-sr">Current: </span> Cloning
+          </li>
+        </ul>
+      </nav>
+      <!-- pagination -->
+      <ul class="pagination" role="navigation" aria-label="Pagination">
+        <li class="disabled">Previous <span class="show-for-sr">page</span></li>
+        <li class="current"><span class="show-for-sr">You're on page</span> 1</li>
+        <li><a href="#0" aria-label="Page 2">2</a></li>
+        <li><a href="#0" aria-label="Page 3">3</a></li>
+        <li><a href="#0" aria-label="Page 4">4</a></li>
+        <li class="ellipsis" aria-hidden="true"></li>
+        <li><a href="#0" aria-label="Page 12">12</a></li>
+        <li><a href="#0" aria-label="Page 13">13</a></li>
+        <li><a href="#0" aria-label="Next page">Next <span class="show-for-sr">page</span></a></li>
+      </ul>
+      <!-- card -->
+      <div class="card" style="width: 300px;">
+        <div class="card-divider">
+          This is a header
+        </div>
+        <img src= "https://placeimg.com/200/200/people">
+        <div class="card-section">
+          <h4>This is a card.</h4>
+          <p>It has an easy to override visual style, and is appropriately subdued.</p>
+        </div>
+      </div>
+      <!-- media-object -->
+      <div class="media-object">
+        <div class="media-object-section">
+          <img src= "https://placeimg.com/200/200/people">
+        </div>
+        <div class="media-object-section">
+          <h4>Dreams feel real while we're in them.</h4>
+          <p>I'm going to improvise. Listen, there's something you should know about me... about inception. An idea is like a virus, resilient, highly contagious. The smallest seed of an idea can grow. It can grow to define or destroy you.</p>
+        </div>
+      </div>
+      <!-- accordian -->
+      <ul class="accordion" data-accordion>
+        <li class="accordion-item is-active" data-accordion-item>
+          <a href="#" class="accordion-title">Accordion 1</a>
+          <div class="accordion-content" data-tab-content >
+            <p>Panel 1. Lorem ipsum dolor</p>
+            <a href="#">Nowhere to Go</a>
+          </div>
+        </li>
+        <li class="accordion-item" data-accordion-item>
+          <a href="#" class="accordion-title">Accordion 2</a>
+          <div class="accordion-content" data-tab-content>
+            <textarea></textarea>
+            <button class="button">I do nothing!</button>
+          </div>
+        </li>
+        <li class="accordion-item" data-accordion-item>
+          <a href="#" class="accordion-title">Accordion 3</a>
+          <div class="accordion-content" data-tab-content>
+            Type your name!
+            <input type="text"></input>
+          </div>
+        </li>
+      </ul>
+      <!-- tabs  -->
+      <ul class="tabs" data-tabs id="example-tabs">
+          <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">Tab 1</a></li>
+          <li class="tabs-title"><a href="#panel2">Tab 2</a></li>
+          <li class="tabs-title"><a href="#panel3">Tab 3</a></li>
+          <li class="tabs-title"><a href="#panel4">Tab 4</a></li>
+          <li class="tabs-title"><a href="#panel5">Tab 5</a></li>
+          <li class="tabs-title"><a href="#panel6">Tab 6</a></li>
+        </ul>
+        
+        <div class="tabs-content" data-tabs-content="example-tabs">
+          <div class="tabs-panel is-active" id="panel1">
+            <p>One</p>
+            <p>Check me out! I'm a super cool Tab panel with text content!</p>
+          </div>
+          <div class="tabs-panel" id="panel2">
+            <p>Two</p>
+            <p>Check me out! I'm a super cool Tab panel with text content!</p>
+          </div>
+          <div class="tabs-panel" id="panel3">
+            <p>Three</p>
+            <p>Check me out! I'm a super cool Tab panel with text content!</p>
+          </div>
+          <div class="tabs-panel" id="panel4">
+            <p>Four</p>
+            <p>Check me out! I'm a super cool Tab panel with text content!</p>
+          </div>
+          <div class="tabs-panel" id="panel5">
+            <p>Five</p>
+            <p>Check me out! I'm a super cool Tab panel with text content!</p>
+          </div>
+          <div class="tabs-panel" id="panel6">
+            <p>Six</p>
+            <p>Check me out! I'm a super cool Tab panel with text content!</p>
+          </div>
+        </div>
+      
+    </div>
+    
+    <!-- grid -->
+    <div class="row">
+      <div class="columns large-8 medium-6 small-8">
+        <h3>Main Column</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus iure ipsum voluptates quae laborum laudantium modi exercitationem, sed dolorem aliquam.
+        </p>
+      </div>
+      <div class="columns large-4 medium-6 small-4">
+        <h3>Sidebar</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit illo deserunt temporibus hic vero esse totam eius in, quis itaque!
+        </p>
+      </div>
+      <hr>
+      <div class="columns large-3">
+        <h3>box</h3>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum consequatur, vel dolore itaque fugiat laborum numquam pariatur odio impedit minus!
+        </p>
+      </div>
+      <div class="columns large-3">
+        <h3>box</h3>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum consequatur, vel dolore itaque fugiat laborum numquam pariatur odio impedit minus!
+        </p>
+      </div>
+      <div class="columns large-3">
+        <h3>box</h3>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum consequatur, vel dolore itaque fugiat laborum numquam pariatur odio impedit minus!
+        </p>
+      </div>
+      <div class="columns large-3">
+        <h3>box</h3>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum consequatur, vel dolore itaque fugiat laborum numquam pariatur odio impedit minus!
+        </p>
+      </div> 
+      <!-- offset -->
+      <div class="large-12 columns" style="border: 1px solid red">1</div>
+      <div class="large-10 large-offset-1 columns" style="border: 1px solid red">10, offset 1</div>
+    </div>
+    
+    
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/what-input/dist/what-input.js"></script>
+    <script src="bower_components/foundation-sites/dist/js/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
